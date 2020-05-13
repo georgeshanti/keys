@@ -1,0 +1,68 @@
+body{
+    font-size: 0px;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+#black-keys{
+    display: inline-block;
+    width: 100%;
+}
+
+.key{
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    width: 50px;
+    border-color: #434443;
+    position: relative;
+}
+
+.key>span{
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.white{
+    background:white;
+    height: 300px;
+    color: black;
+}
+
+.white.selected{
+    background: #ddd;
+}
+
+.black{
+    background:#222;
+    height: 150px;
+    width: 40px;
+    margin-right: 10px;
+    color: white;
+}
+
+.black.selected{
+    background: #000;
+}
+
+#set-1{
+    top: 0px;
+    left: 7.5%;
+    position: absolute;
+}
+
+#set-2{
+    top: 0px;
+    left: 45%;
+    position: absolute;
+}
