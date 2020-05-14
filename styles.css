@@ -14,6 +14,12 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
+    width: 100vw;
+}
+
+.section{
+    display: inline-block;
+    position: relative;
 }
 
 #black-keys{
@@ -63,12 +69,36 @@ body{
 
 #set-1{
     top: 0px;
-    left: 7.5%;
+    left: 8.5%;
     position: absolute;
 }
 
 #set-2{
     top: 0px;
-    left: 45%;
+    left: 52%;
+    position: absolute;
+}
+
+#alt-set-1{
+    top: 0px;
+    left: 23.5%;
+    position: absolute;
+}
+
+#alt-set-2{
+    top: 0px;
+    left: 51%;
+    position: absolute;
+}
+
+#alt-set-3{
+    top: 0px;
+    left: 7.5%;
+    position: absolute;
+}
+
+#alt-set-4{
+    top: 0px;
+    left: 87%;
     position: absolute;
 }
