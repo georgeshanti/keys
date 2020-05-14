@@ -1,7 +1,15 @@
 class Note{
     constructor(note){
         this.note = note;
-        this.synth = new Tone.Synth().toMaster();
+        this.synth = new Tone.Synth({
+            // oscillator: {
+            //   type: 'sine',
+            //   modulationType: 'sine',
+            //   modulationIndex: 3,
+            //   harmonicity: 3.4
+            // }
+          }).toMaster();
+        this.synth.set('oscillator', 'sine')
         this.playing = false;
     }
     play = ()=>{
